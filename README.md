@@ -116,7 +116,7 @@ git push -u origin main
    - Under **Build and deployment > Source**, choose **Deploy from a branch**.
    - Select branch `main` and folder `/ (root)`, then click **Save**.
 
-3. After 1 to 2 minutes the site is live at https://safiraza112.github.io/veyora-ecommerce/
+3. After 1 to 2 minutes the site is live at https://veyora-ecommerce-9cflud8s6-safi-raza.vercel.app
 
 ## Submission Checklist
 
