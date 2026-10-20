@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Veyora is a fashion store with everyday clothing, bags and footwear.">
+<title>Home | Veyora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container bar">
+    <a class="logo" href="index.html">Veyora<span>.</span></a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Open menu">
+    <label for="menu-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="categories.html">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="login.html">Login</a>
+      <a class="cart-link" href="cart.html">Cart (3)</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero"><div class="container hero-inner">
+  <div><h1>Clothes that move with your day.</h1><p>Soft linen, easy cuts and colours picked for Pakistani summers. New arrivals land every month.</p>
+  <a class="btn" href="shop.html">Shop new arrivals</a><a class="btn btn-outline" href="categories.html">Browse categories</a></div>
+  <img src="images/hero.svg" alt="Veyora new season collection banner" width="900" height="1125">
+</div></section>
+<section class="section"><div class="container"><div class="section-head"><h2>Shop by category</h2><a href="categories.html">See all categories</a></div>
+<div class="grid grid-4"><a class="cat-card" href="shop.html"><img src="images/cat-women.svg" alt="Women category" width="800" height="1000"><h3>Women</h3></a>
+<a class="cat-card" href="shop.html"><img src="images/cat-men.svg" alt="Men category" width="800" height="1000"><h3>Men</h3></a>
+<a class="cat-card" href="shop.html"><img src="images/cat-accessories.svg" alt="Accessories category" width="800" height="1000"><h3>Accessories</h3></a>
+<a class="cat-card" href="shop.html"><img src="images/cat-footwear.svg" alt="Footwear category" width="800" height="1000"><h3>Footwear</h3></a></div></div></section>
+<section class="section"><div class="container"><div class="section-head"><h2>Featured products</h2><a href="shop.html">View all products</a></div>
+<div class="grid grid-4"><article class="card"><a href="product.html"><img src="images/p1.svg" alt="Linen Kurta Set in women collection" width="800" height="1000"></a>
+<div class="card-body"><h3><a href="product.html">Linen Kurta Set</a></h3><p class="muted">Women</p><p class="price">Rs 5,990</p></div></article>
+<article class="card"><a href="product.html"><img src="images/p2.svg" alt="Embroidered Lawn Suit in women collection" width="800" height="1000"></a>
+<div class="card-body"><h3><a href="product.html">Embroidered Lawn Suit</a><span class="badge">Sale</span></h3><p class="muted">Women</p><p class="price">Rs 7,490<del>Rs 8,990</del></p></div></article>
+<article class="card"><a href="product.html"><img src="images/p3.svg" alt="Pleated Wide Trousers in women collection" width="800" height="1000"></a>
+<div class="card-body"><h3><a href="product.html">Pleated Wide Trousers</a></h3><p class="muted">Women</p><p class="price">Rs 3,990</p></div></article>
+<article class="card"><a href="product.html"><img src="images/p4.svg" alt="Cotton Shalwar Kameez in men collection" width="800" height="1000"></a>
+<div class="card-body"><h3><a href="product.html">Cotton Shalwar Kameez</a></h3><p class="muted">Men</p><p class="price">Rs 6,490</p></div></article></div></div></section>
+<section class="section"><div class="container"><div class="offer"><div><h2>Get 20% off your first order</h2><p>Use code VEYORA20 at checkout.</p></div><a class="btn btn-dark" href="checkout.html">Go to checkout</a></div></div></section>
+<section class="section"><div class="container"><h2>Join our newsletter</h2><p class="muted" style="margin:8px 0 18px">New drops and sale alerts, once a week.</p>
+<form class="newsletter" action="#" method="get"><label for="nl-email" class="sr" style="display:none">Email</label><input id="nl-email" type="email" name="email" placeholder="you@example.com" required><button class="btn btn-dark" type="submit">Subscribe</button></form></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h3>Veyora</h3><p>Everyday fashion for women and men, designed to be worn on repeat. Free delivery across Pakistan on orders above Rs 5,000.</p></div>
+      <div><h3>Shop</h3><ul><li><a href="shop.html">All products</a></li><li><a href="categories.html">Categories</a></li><li><a href="cart.html">Cart</a></li><li><a href="checkout.html">Checkout</a></li></ul></div>
+      <div><h3>Company</h3><ul><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li><li><a href="login.html">Login</a></li></ul></div>
+      <div><h3>Contact</h3><ul><li>hello@veyora.example</li><li>+92 300 0000000</li><li>Karachi, Pakistan</li></ul></div>
+    </div>
+    <p class="copy">&copy; 2026 Veyora. Web Engineering Assignment 1, made by Safi Raza (BSE-24S-069) using HTML and CSS only.</p>
+  </div>
+</footer>
+</body>
+</html>
